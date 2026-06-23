@@ -1,41 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cake Dashboard</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Library Material Mix</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-grid.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-theme-quartz.css"
+    >
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/dist/ag-grid-community.min.js" defer></script>
+    <script src="dashboard.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Seattle Public Library sample data</p>
+          <h1 id="page-title">Digital checkouts shifted from audio-first to ebook-led.</h1>
+        </div>
+        <p class="lede">
+          Annual digital checkout share by material type, loaded directly from
+          <span>dashboard_data/digital_material_type_shares_by_year.csv</span>.
+        </p>
+      </section>
 
-  <header>Cake Dashboard</header>
+      <section class="dashboard" aria-label="Digital material type dashboard">
+        <div class="chart-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">2006-2025</p>
+              <h2>Share of sampled digital checkouts</h2>
+            </div>
+            <p class="source-note">Hover or tap the chart to inspect each year.</p>
+          </div>
+          <div id="material-chart" class="chart" role="img" aria-label="Interactive animated bar race chart of digital checkout share by material type over time"></div>
+        </div>
 
-  <main id="dashboard"></main>
+        <aside class="finding-panel" aria-labelledby="finding-title">
+          <p class="eyebrow">Finding</p>
+          <h2 id="finding-title">What changed?</h2>
+          <p id="finding-text" class="finding-text">Loading the CSV and calculating the finding...</p>
+        </aside>
+      </section>
 
-  <script>
-    fetch('index.csv')
-      .then(res => res.text())
-      .then(text => {
-        const lines = text.trim().split('\n');
-        const headers = lines[0].split(',');
-        const main = document.getElementById('dashboard');
+      <section class="table-panel" aria-labelledby="table-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">AG Grid Community 32</p>
+            <h2 id="table-title">Most popular material type by year</h2>
+          </div>
+          <p class="source-note">One row per year, ranked by the highest digital checkout share.</p>
+        </div>
+        <div id="data-grid" class="ag-theme-quartz data-grid" aria-label="Interactive AG Grid table of the most popular digital material type by year"></div>
+      </section>
 
-        for (let i = 1; i < lines.length; i++) {
-          const values = lines[i].split(',');
-          const metric = values[0];
-          const value = values[1];
+      <section class="titles-panel" aria-labelledby="titles-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Top sampled titles</p>
+            <h2 id="titles-title">Annual pull of the number-one digital title</h2>
+          </div>
+          <p class="source-note">Loaded directly from dashboard_data/digital_top_sampled_titles_by_year.csv.</p>
+        </div>
+        <div id="titles-chart" class="chart titles-chart" role="img" aria-label="Interactive chart of the top sampled digital title count by year"></div>
+        <p id="titles-finding" class="secondary-finding">Loading the titles CSV and calculating the finding...</p>
+      </section>
 
-          const formatted = metric === 'Revenue'
-            ? '$' + Number(value).toLocaleString()
-            : Number(value).toLocaleString();
-
-          const card = document.createElement('div');
-          card.className = 'card';
-          card.innerHTML = `<h2>${metric}</h2><p>${formatted}</p>`;
-          main.appendChild(card);
-        }
-      });
-  </script>
-
-</body>
+      <section class="physical-titles-panel" aria-labelledby="physical-titles-title">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Physical top sampled titles</p>
+            <h2 id="physical-titles-title">Material mix inside each year's physical top 10</h2>
+          </div>
+          <p class="source-note">Loaded directly from dashboard_data/physical_top_sampled_titles_by_year.csv.</p>
+        </div>
+        <div id="physical-titles-chart" class="chart physical-titles-chart" role="img" aria-label="Interactive stacked bar chart of physical top sampled title checkouts by year and material type"></div>
+        <p id="physical-titles-finding" class="secondary-finding">Loading the physical titles CSV and calculating the finding...</p>
+      </section>
+    </main>
+  </body>
 </html>
