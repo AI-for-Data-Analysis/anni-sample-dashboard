@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <header>Cake Dashboard</header>
+
+  <main id="dashboard"></main>
+
+  <script>
+    fetch('index.csv')
+      .then(res => res.text())
+      .then(text => {
+        const lines = text.trim().split('\n');
+        const headers = lines[0].split(',');
+        const main = document.getElementById('dashboard');
+
+        for (let i = 1; i < lines.length; i++) {
+          const values = lines[i].split(',');
+          const metric = values[0];
+          const value = values[1];
+
+          const formatted = metric === 'Revenue'
+            ? '$' + Number(value).toLocaleString()
+            : Number(value).toLocaleString();
+
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `<h2>${metric}</h2><p>${formatted}</p>`;
+          main.appendChild(card);
+        }
+      });
+  </script>
+
+</body>
+</html>
