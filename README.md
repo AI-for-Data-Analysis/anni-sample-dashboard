@@ -1,5 +1,7 @@
 # Build & Deploy a Static Dashboard​
 
+See gitlab pages deployment: https://dashboard-starter-with-examples-8c1afe.pages.oit.duke.edu/ 
+
 ## Create a dashboard
 ```
 Create a static dashboard website using plain HTML, CSS, and JavaScript that loads data directly at runtime from dashboard_data/digital_material_type_shares_by_year.csv, do not embed it; use Plotly.js to render exactly one interactive chart and one clearly written interesting finding derived from the CSV data, make the page responsive and visually polished.
