@@ -47,3 +47,43 @@ use $data-viz-accessibility to audit the dashboard
 ```
 
 ## Deploy on Gitlab Pages
+1. Move index.html, index.css, dashboard_data/ into a public/ folder
+![](./imgs/0-move-into-public.png)
+
+2. Create a new repo, push up your changes, visit Settings -> General -> Visibility
+![](./imgs/1-go-to-setting.png)
+
+3. Make sure the Gitlab Pages setting is on
+![](./imgs/2-enable-pages.png)
+
+4. Go to Deploy -> Pages, create a runner. Copy and paste the following setting
+```
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying static assets..."
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+
+```
+![](./imgs/3-edit-yml.png)
+
+5. Press commit. This step will generate a `.gitlab-ci.yml` file.
+![](./imgs/4-commit-yml.png)
+
+6. Check pipeline
+![](./imgs/5-created-pipeline.png)
+
+7. View the pipeline and see it runs
+![](./imgs/6-see-pipeline.png)
+
+8. When the pipeline succeeds, you'll be able to visit a link
+![](./imgs/7-view-pages.png)
+
+9. See the dashboard deployed!
+![](./imgs/8-see-page.png)
