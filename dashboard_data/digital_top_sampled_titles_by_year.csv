@@ -1,0 +1,201 @@
+checkoutyear,rank_in_year,total_sampled_checkouts,usageclass,checkouttype,materialtype,title,isbn,creator,subjects,publisher,publicationyear,sample_design
+2006,1,77,Digital,OverDrive,EBOOK,Blink: The Power of Thinking Without Thinking,,Malcolm Gladwell,"Business, Nonfiction, Self-Improvement","Hachette Digital, Inc.",2005,balanced_by_year_and_usageclass
+2006,2,64,Digital,OverDrive,AUDIOBOOK,History of the World (Updated) (Unabridged),,J. M. Roberts,History,"Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2006,3,54,Digital,OverDrive,AUDIOBOOK,A People's History of the United States: Highlights from the Twentieth Century (abridged) (Abridged),,Howard Zinn,"History, Nonfiction",HarperCollins Publishers Inc.,2005,balanced_by_year_and_usageclass
+2006,4,46,Digital,OverDrive,AUDIOBOOK,The Truth (with jokes) (Unabridged),,Al Franken,"Current Events, Essays, Nonfiction, Politics","Brilliance Audio, Inc.",2005,balanced_by_year_and_usageclass
+2006,5,38,Digital,OverDrive,AUDIOBOOK,Instant Immersion Spanish (Unabridged),,TOPICS Entertainment,"Foreign Language Study, Foreign Language Study - Spanish, Nonfiction",Topics Entertainment,2005,balanced_by_year_and_usageclass
+2006,6,35,Digital,OverDrive,AUDIOBOOK,Acqua Alta (Unabridged),,Donna Leon,"Mystery, Suspense","Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2006,7,32,Digital,OverDrive,AUDIOBOOK,Confessions of an Economic Hit Man (Unabridged),,John Perkins,"Biography & Autobiography, Business, Nonfiction","Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2006,8,31,Digital,OverDrive,AUDIOBOOK,Blink: The Power of Thinking Without Thinking (unabridged) (Unabridged),,Malcolm Gladwell,"Business, New Age, Nonfiction, Psychology, Self-Improvement",Hachette Audio,2006,balanced_by_year_and_usageclass
+2006,9,29,Digital,OverDrive,AUDIOBOOK,Breakfast of Champions (Unabridged),,Kurt Vonnegut,"Fiction, Literature",HarperCollins Publishers Inc.,2005,balanced_by_year_and_usageclass
+2006,10,26,Digital,OverDrive,AUDIOBOOK,Classical Music 101: A Complete Guide to Learning and Loving Classical Music (unabridged) (Unabridged),,Fred Plotkin,"Music, Nonfiction","Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2007,1,56,Digital,OverDrive,EBOOK,Blink: The Power of Thinking Without Thinking,,Malcolm Gladwell,"Business, Nonfiction, Self-Improvement","Hachette Digital, Inc.",2005,balanced_by_year_and_usageclass
+2007,2,55,Digital,OverDrive,AUDIOBOOK,Blink: The Power of Thinking Without Thinking (unabridged) (Unabridged),,Malcolm Gladwell,"Business, New Age, Nonfiction, Psychology, Self-Improvement",Hachette Audio,2006,balanced_by_year_and_usageclass
+2007,3,47,Digital,OverDrive,AUDIOBOOK,The Tipping Point: How Little Things Can Make a Big Difference (abridged) (Abridged),,Malcolm Gladwell,"Business, Nonfiction",Hachette Audio,2006,balanced_by_year_and_usageclass
+2007,4,44,Digital,OverDrive,AUDIOBOOK,"The Golden Compass: His Dark Materials Series, Book 1 (unabridged) (Unabridged)",,Philip Pullman,"Fantasy, Science Fiction, Young Adult Fiction",Books on Tape,2006,balanced_by_year_and_usageclass
+2007,5,38,Digital,OverDrive,VIDEO,Coral Reef Adventures (IMAX),,Greg MacGillivray,"Documentary, IMAX",RLJ Entertainment,,balanced_by_year_and_usageclass
+2007,6,37,Digital,OverDrive,AUDIOBOOK,A People's History of the United States: Highlights from the Twentieth Century (abridged) (Abridged),,Howard Zinn,"History, Nonfiction",HarperCollins Publishers Inc.,2005,balanced_by_year_and_usageclass
+2007,7,35,Digital,OverDrive,AUDIOBOOK,The Truth (with jokes) (Unabridged),,Al Franken,"Current Events, Essays, Nonfiction, Politics","Brilliance Audio, Inc.",2005,balanced_by_year_and_usageclass
+2007,8,33,Digital,OverDrive,AUDIOBOOK,"Ask and It Is Given, Part I: The Law of Attraction (unabridged) (Unabridged)",,Esther Hicks,"Nonfiction, Self-Improvement",Hay House,2006,balanced_by_year_and_usageclass
+2007,9,33,Digital,OverDrive,EBOOK,My Life Uncovered,,,,Focus Publishing/R. Pullins Company,2007,balanced_by_year_and_usageclass
+2007,10,32,Digital,OverDrive,AUDIOBOOK,Confessions of an Economic Hit Man (Unabridged),,John Perkins,"Biography & Autobiography, Business, Nonfiction","Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2008,1,52,Digital,OverDrive,AUDIOBOOK,Blink: The Power of Thinking Without Thinking (unabridged) (Unabridged),,Malcolm Gladwell,"Business, New Age, Nonfiction, Psychology, Self-Improvement",Hachette Audio,2006,balanced_by_year_and_usageclass
+2008,2,49,Digital,OverDrive,AUDIOBOOK,The Power of Now: A Guide to Spiritual Enlightenment (unabridged) (Unabridged),,Eckhart Tolle,"New Age, Nonfiction, Self-Improvement",New World Library,2005,balanced_by_year_and_usageclass
+2008,3,39,Digital,OverDrive,AUDIOBOOK,"New Moon: The Twilight Saga, Book 2 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2006,balanced_by_year_and_usageclass
+2008,4,37,Digital,OverDrive,EBOOK,"New Moon: The Twilight Saga, Book 2",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction","Hachette Digital, Inc.",2007,balanced_by_year_and_usageclass
+2008,5,36,Digital,OverDrive,VIDEO,Beavers (IMAX),,Stephen Low,"Documentary, IMAX",RLJ Entertainment,,balanced_by_year_and_usageclass
+2008,6,35,Digital,OverDrive,AUDIOBOOK,"Breaking Dawn: The Twilight Saga, Book 4 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2008,balanced_by_year_and_usageclass
+2008,7,34,Digital,OverDrive,EBOOK,My Life Uncovered,,,,Focus Publishing/R. Pullins Company,2007,balanced_by_year_and_usageclass
+2008,8,34,Digital,OverDrive,AUDIOBOOK,The Host: A Novel (unabridged) (Unabridged),,Stephenie Meyer,"Romance, Science Fiction, Young Adult Fiction",Books on Tape,2008,balanced_by_year_and_usageclass
+2008,9,33,Digital,OverDrive,EBOOK,Blink: The Power of Thinking Without Thinking,,Malcolm Gladwell,"Business, Nonfiction, Self-Improvement","Hachette Digital, Inc.",2005,balanced_by_year_and_usageclass
+2008,10,31,Digital,OverDrive,AUDIOBOOK,"The Overlook: Harry Bosch Series, Book 13 (unabridged) (Unabridged)",,Michael Connelly,"Fiction, Mystery, Thriller",Hachette Audio,2007,balanced_by_year_and_usageclass
+2009,1,120,Digital,OverDrive,AUDIOBOOK,"Breaking Dawn: The Twilight Saga, Book 4 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2008,balanced_by_year_and_usageclass
+2009,2,90,Digital,OverDrive,EBOOK,"New Moon: The Twilight Saga, Book 2",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction","Hachette Digital, Inc.",2007,balanced_by_year_and_usageclass
+2009,3,84,Digital,OverDrive,AUDIOBOOK,"New Moon: The Twilight Saga, Book 2 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2006,balanced_by_year_and_usageclass
+2009,4,84,Digital,OverDrive,AUDIOBOOK,"The Lost Symbol: Robert Langdon Series, Book 3 (unabridged) (Unabridged)",,Dan Brown,"Fiction, Thriller",Books on Tape,2009,balanced_by_year_and_usageclass
+2009,5,71,Digital,OverDrive,EBOOK,Blink: The Power of Thinking Without Thinking,,Malcolm Gladwell,"Business, Nonfiction, Self-Improvement","Hachette Digital, Inc.",2005,balanced_by_year_and_usageclass
+2009,6,58,Digital,OverDrive,AUDIOBOOK,Blink: The Power of Thinking Without Thinking (unabridged) (Unabridged),,Malcolm Gladwell,"Business, New Age, Nonfiction, Psychology, Self-Improvement",Hachette Audio,2006,balanced_by_year_and_usageclass
+2009,7,57,Digital,OverDrive,EBOOK,"The Lost Symbol: Robert Langdon Series, Book 3",,Dan Brown,"Fiction, Thriller","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2009,8,55,Digital,OverDrive,AUDIOBOOK,"Master and Commander: Aubrey / Maturin Series, Book 1 (unabridged) (Unabridged)",,Patrick O'Brian,"Fiction, Historical Fiction","Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2009,9,51,Digital,OverDrive,AUDIOBOOK,"Brisingr: Inheritance Cycle, Book 3 (unabridged) (Unabridged)",,Christopher Paolini,"Fantasy, Young Adult Fiction",Books on Tape,2008,balanced_by_year_and_usageclass
+2009,10,48,Digital,OverDrive,AUDIOBOOK,Moby Dick (Unabridged),,Herman Melville,"Classic Literature, Fiction","Blackstone Audio, Inc.",2008,balanced_by_year_and_usageclass
+2010,1,91,Digital,OverDrive,AUDIOBOOK,"Catching Fire: The Hunger Games Series, Book 2 (unabridged) (Unabridged)",,Suzanne Collins,"Science Fiction, Thriller, Young Adult Fiction",Scholastic Inc. Audiobooks,2010,balanced_by_year_and_usageclass
+2010,2,81,Digital,OverDrive,EBOOK,"New Moon: The Twilight Saga, Book 2",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction","Hachette Digital, Inc.",2007,balanced_by_year_and_usageclass
+2010,3,69,Digital,OverDrive,AUDIOBOOK,"Breaking Dawn: The Twilight Saga, Book 4 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2008,balanced_by_year_and_usageclass
+2010,4,63,Digital,OverDrive,AUDIOBOOK,"New Moon: The Twilight Saga, Book 2 (unabridged) (Unabridged)",,Stephenie Meyer,"Fantasy, Romance, Young Adult Fiction",Books on Tape,2006,balanced_by_year_and_usageclass
+2010,5,60,Digital,OverDrive,EBOOK,The Omnivore's Dilemma: The Secrets Behind What You Eat,,Michael Pollan,"Cooking & Food, Health & Fitness, Young Adult Nonfiction","Penguin Group (USA), Inc.",2009,balanced_by_year_and_usageclass
+2010,6,50,Digital,OverDrive,AUDIOBOOK,The Now Habit: A Strategic Program for Overcoming Procrastination and Enjoying Guilt-Free Play (unabridged) (Unabridged),,"Neil Fiore, Ph.D.","Business, Management, Nonfiction, Self-Improvement",Gildan Media Corp,2008,balanced_by_year_and_usageclass
+2010,7,48,Digital,OverDrive,EBOOK,Mistress,,Amanda Quick | Leda Swann,"Erotic Literature, Fiction, Historical Fiction, Romance | Fiction, Historical Fiction, Romance","HarperCollins Publishers Inc. | Random House, Inc.",2009 | 2010,balanced_by_year_and_usageclass
+2010,8,46,Digital,OverDrive,AUDIOBOOK,"Call for the Dead: Smiley Series, Book 1 (unabridged) (Unabridged)",,John le Carré,"Fiction, Mystery, Suspense","AudioGO | Blackstone Audio, Inc.",2005,balanced_by_year_and_usageclass
+2010,9,46,Digital,OverDrive,AUDIOBOOK,Moby Dick (Unabridged),,Herman Melville,"Classic Literature, Drama, Fiction | Classic Literature, Fiction","Blackstone Audio, Inc. | Random House Group Limited",2008 | 2009,balanced_by_year_and_usageclass
+2010,10,46,Digital,OverDrive,EBOOK,Nicholas: The Lords of Satyr,,Elizabeth Amber,"Erotic Literature, Fiction, Romance","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2011,1,202,Digital,OverDrive,EBOOK,The Paris Wife: A Novel,,Paula McLain,"Fiction, Historical Fiction, Literature","Random House, Inc.",2011,balanced_by_year_and_usageclass
+2011,2,157,Digital,Freegal,SONG,Mr. Know It All,,Kelly Clarkson,,,,balanced_by_year_and_usageclass
+2011,3,119,Digital,OverDrive,EBOOK,The Omnivore's Dilemma: The Secrets Behind What You Eat,,Michael Pollan,"Cooking & Food, Health & Fitness, Young Adult Nonfiction","Penguin Group (USA), Inc.",2009,balanced_by_year_and_usageclass
+2011,4,107,Digital,Freegal,SONG,Chasing Pavements,,Adele,,,,balanced_by_year_and_usageclass
+2011,5,102,Digital,OverDrive,EBOOK,The Night Circus,,Erin Morgenstern,"Fantasy, Fiction, Literature, Romance","Random House, Inc.",2011,balanced_by_year_and_usageclass
+2011,6,65,Digital,OverDrive,AUDIOBOOK,"Mockingjay: The Hunger Games Series, Book 3 (unabridged) (Unabridged)",,Suzanne Collins,"Science Fiction, Thriller, Young Adult Fiction",Scholastic Inc. Audiobooks,2010,balanced_by_year_and_usageclass
+2011,7,62,Digital,OverDrive,AUDIOBOOK,Cleopatra: A Life (unabridged) (Unabridged),,Stacy Schiff,"Biography & Autobiography, Nonfiction",Hachette Audio,2010,balanced_by_year_and_usageclass
+2011,8,62,Digital,OverDrive,AUDIOBOOK,The Now Habit: A Strategic Program for Overcoming Procrastination and Enjoying Guilt-Free Play (unabridged) (Unabridged),,"Neil Fiore, Ph.D.","Business, Management, Nonfiction, Self-Improvement",Gildan Media Corp,2008,balanced_by_year_and_usageclass
+2011,9,59,Digital,OverDrive,EBOOK,"The Passage: The Passage Series, Book 1",,Justin Cronin,"Fantasy, Fiction, Thriller","Random House, Inc.",2010,balanced_by_year_and_usageclass
+2011,10,56,Digital,OverDrive,EBOOK,Cinderella Ate My Daughter: Dispatches from the Front Lines of the New Girlie-Girl Culture,,Peggy Orenstein,"Family & Relationships, Nonfiction",HarperCollins Publishers Inc.,2011,balanced_by_year_and_usageclass
+2012,1,607,Digital,OverDrive,EBOOK,The Paris Wife: A Novel,,Paula McLain,"Fiction, Historical Fiction, Literature","Random House, Inc.",2011,balanced_by_year_and_usageclass
+2012,2,385,Digital,OverDrive,EBOOK,Cloud Atlas: A Novel,,David Mitchell,"Fantasy, Fiction, Historical Fiction, Literature","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2012,3,256,Digital,OverDrive,EBOOK,The Night Circus,,Erin Morgenstern,"Fantasy, Fiction, Literature, Romance","Random House, Inc.",2011,balanced_by_year_and_usageclass
+2012,4,227,Digital,OverDrive,EBOOK,"The Passage: The Passage Series, Book 1",,Justin Cronin,"Fantasy, Fiction, Thriller","Random House, Inc.",2010,balanced_by_year_and_usageclass
+2012,5,132,Digital,OverDrive,EBOOK,The Omnivore's Dilemma: The Secrets Behind What You Eat,,Michael Pollan,"Cooking & Food, Health & Fitness, Young Adult Nonfiction","Penguin Group (USA), Inc.",2009,balanced_by_year_and_usageclass
+2012,6,130,Digital,OverDrive,EBOOK,The Paleo Diet: Lose Weight and Get Healthy by Eating the Foods You Were Designed to Eat,,Loren Cordain,"Health & Fitness, Nonfiction","John Wiley & Sons, Inc.",2011,balanced_by_year_and_usageclass
+2012,7,115,Digital,Freegal | OverDrive,EBOOK | SONG,The One That Got Away,,Jake Owen | Kidz Bop Kids | Natasha Bedingfield | P!nk | The One That Got Away | Victoria Alexander,"Fiction, Romance",HarperCollins Publishers Inc.,2011,balanced_by_year_and_usageclass
+2012,8,114,Digital,OverDrive,EBOOK,Cocktail Hour Under the Tree of Forgetfulness,,Alexandra Fuller,"Biography & Autobiography, Nonfiction","Penguin Group (USA), Inc.",2011,balanced_by_year_and_usageclass
+2012,9,111,Digital,OverDrive,EBOOK,"The Paleo Diet Cookbook: More than 150 recipes for Paleo Breakfasts, Lunches, Dinners, Snacks, and Beverages",,Loren Cordain,"Cooking & Food, Nonfiction","John Wiley & Sons, Inc.",2011,balanced_by_year_and_usageclass
+2012,10,101,Digital,OverDrive,EBOOK,The Orchardist,,Amanda Coplin,"Fiction, Literature",HarperCollins Publishers Inc.,2012,balanced_by_year_and_usageclass
+2013,1,613,Digital,OverDrive,EBOOK,The Paris Wife: A Novel,,Paula McLain,"Fiction, Historical Fiction, Literature","Random House, Inc.",2011,balanced_by_year_and_usageclass
+2013,2,502,Digital,Zinio,MAGAZINE,Consumer Reports,,,,,,balanced_by_year_and_usageclass
+2013,3,445,Digital,Zinio,MAGAZINE,Newsweek,,,,,,balanced_by_year_and_usageclass
+2013,4,343,Digital,OverDrive,EBOOK,"The Passage: The Passage Series, Book 1",,Justin Cronin,"Fantasy, Fiction, Thriller","Random House, Inc.",2010,balanced_by_year_and_usageclass
+2013,5,307,Digital,OverDrive,EBOOK,The Power of Habit: Why We Do What We Do in Life and Business,,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2013,6,281,Digital,Freegal | OverDrive,EBOOK | SONG,Never Let Me Go,,Kazuo Ishiguro | Massimo Farao Trio,"Fiction, Literature, Science Fiction","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2013,7,209,Digital,Zinio,MAGAZINE,New York Review of Books,,,,,,balanced_by_year_and_usageclass
+2013,8,203,Digital,OverDrive,EBOOK,Cloud Atlas: A Novel,,David Mitchell,"Fantasy, Fiction, Historical Fiction, Literature","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2013,9,192,Digital,OverDrive,EBOOK,"Never Seduce a Scot: The Montgomerys and Armstrongs Series, Book 1",,Maya Banks,"Erotic Literature, Fiction, Historical Fiction, Romance","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2013,10,181,Digital,OverDrive,EBOOK,"The Pillars of the Earth: The Pillars of the Earth Series, Book 1",,Ken Follett,"Fiction, Historical Fiction, Suspense | Fiction, Thriller","Penguin Group (USA), Inc.",2009,balanced_by_year_and_usageclass
+2014,1,1216,Digital,Zinio,MAGAZINE,Consumer Reports,,,,,,balanced_by_year_and_usageclass
+2014,2,471,Digital,OverDrive,EBOOK,The Power of Habit: Why We Do What We Do in Life and Business,,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2014,3,460,Digital,Zinio,MAGAZINE,Cosmopolitan,,,,,,balanced_by_year_and_usageclass
+2014,4,246,Digital,Zinio,MAGAZINE,Newsweek,,,,,,balanced_by_year_and_usageclass
+2014,5,218,Digital,OverDrive,EBOOK,The Paying Guests,,Sarah Waters,"Fiction, Historical Fiction, Literature","Penguin Group (USA), Inc.",2014,balanced_by_year_and_usageclass
+2014,6,210,Digital,OverDrive,EBOOK,"Concealed in Death: In Death Series, Book 38",,J. D. Robb,"Fiction, Mystery, Romance, Suspense","Penguin Group (USA), Inc.",2014,balanced_by_year_and_usageclass
+2014,7,190,Digital,Zinio,MAGAZINE,Country Living,,,,,,balanced_by_year_and_usageclass
+2014,8,190,Digital,OverDrive,EBOOK,Night Film: A Novel,,Marisha Pessl,"Fiction, Literature, Suspense, Thriller","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2014,9,169,Digital,Freegal,SONG,Not a Bad Thing,,Justin Timberlake,,,,balanced_by_year_and_usageclass
+2014,10,165,Digital,OverDrive,EBOOK,"Never Go Back: Jack Reacher Series, Book 18",,Lee Child,"Fiction, Mystery, Suspense, Thriller","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2015,1,1318,Digital,Zinio,MAGAZINE,Newsweek,,,,,,balanced_by_year_and_usageclass
+2015,2,640,Digital,Zinio,MAGAZINE,Consumer Reports,,,,,,balanced_by_year_and_usageclass
+2015,3,516,Digital,Zinio,MAGAZINE,Conde Nast Traveler,,,,,,balanced_by_year_and_usageclass
+2015,4,450,Digital,OverDrive,EBOOK,"Never Go Back: Jack Reacher Series, Book 18",,Lee Child,"Fiction, Mystery, Suspense, Thriller","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2015,5,420,Digital,OverDrive,EBOOK,The Paying Guests,,Sarah Waters,"Fiction, Historical Fiction, Literature","Penguin Group (USA), Inc.",2014,balanced_by_year_and_usageclass
+2015,6,402,Digital,Zinio,MAGAZINE,New York Review of Books,,,,,,balanced_by_year_and_usageclass
+2015,7,395,Digital,Zinio,MAGAZINE,Cook's Illustrated,,,,,,balanced_by_year_and_usageclass
+2015,8,328,Digital,Freegal | OverDrive,EBOOK | SONG,Never Let Me Go,,Bob James | Kazuo Ishiguro,"Fiction, Literature, Science Fiction","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2015,9,295,Digital,OverDrive,EBOOK,The Power of Habit: Why We Do What We Do in Life and Business,,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2015,10,273,Digital,OverDrive,EBOOK,"Never Seduce a Scot: The Montgomerys and Armstrongs Series, Book 1",,Maya Banks,"Erotic Literature, Fiction, Historical Fiction, Romance","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2016,1,809,Digital,Zinio,MAGAZINE,Newsweek,,,,,,balanced_by_year_and_usageclass
+2016,2,660,Digital,Zinio,MAGAZINE,Cook's Illustrated,,,,,,balanced_by_year_and_usageclass
+2016,3,657,Digital,OverDrive,EBOOK,The Power of Habit: Why We Do What We Do in Life and Business,,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2016,4,633,Digital,Zinio,MAGAZINE,Conde Nast Traveler,,,,,,balanced_by_year_and_usageclass
+2016,5,372,Digital,OverDrive,EBOOK,Commonwealth,,Ann Patchett,"Fiction, Literature",HarperCollins Publishers Inc.,2016,balanced_by_year_and_usageclass
+2016,6,295,Digital,Zinio,MAGAZINE,New York Review of Books,,,,,,balanced_by_year_and_usageclass
+2016,7,247,Digital,OverDrive,EBOOK,The Portable Veblen: A Novel,,Elizabeth Mckenzie,"Fiction, Humor (Fiction), Literature","Penguin Group (USA), Inc.",2016,balanced_by_year_and_usageclass
+2016,8,211,Digital,OverDrive,AUDIOBOOK,The Power of Habit: Why We Do What We Do in Life and Business (unabridged) (Unabridged),,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement",Books on Tape,2012,balanced_by_year_and_usageclass
+2016,9,207,Digital,OverDrive,EBOOK,Night Film: A Novel,,Marisha Pessl,"Fiction, Literature, Suspense | Fiction, Literature, Suspense, Thriller","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2016,10,186,Digital,Freegal | Hoopla | OverDrive,EBOOK | MOVIE | SONG,Night,,"Bruce Springsteen | Christopher Tyng | Elie Wiesel | Jackie Wilson | Ludovico Einaudi,Amsterdam Sinfonietta | Tor Lundvall","Biography & Autobiography, History, Nonfiction | Documentary, World","Macmillan Publishers | MouseTrap Films, LLC",2013,balanced_by_year_and_usageclass
+2017,1,879,Digital,OverDrive,EBOOK,Commonwealth,,Ann Patchett,"Fiction, Literature",HarperCollins Publishers Inc.,2016,balanced_by_year_and_usageclass
+2017,2,710,Digital,OverDrive,EBOOK,"Night School: Jack Reacher Series, Book 21",,Lee Child,"Fiction, Mystery, Suspense, Thriller","Random House, Inc.",2016,balanced_by_year_and_usageclass
+2017,3,704,Digital,Zinio,MAGAZINE,Conde Nast Traveler,,,,,,balanced_by_year_and_usageclass
+2017,4,673,Digital,Zinio,MAGAZINE,Cook's Illustrated,,,,,,balanced_by_year_and_usageclass
+2017,5,659,Digital,OverDrive,EBOOK,The Power of Habit: Why We Do What We Do in Life and Business,,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement","Random House, Inc.",2012,balanced_by_year_and_usageclass
+2017,6,427,Digital,OverDrive,EBOOK,The Princess Diarist,,Carrie Fisher,"Essays, Humor (Nonfiction), Nonfiction, Self Help","Penguin Group (USA), Inc.",2016,balanced_by_year_and_usageclass
+2017,7,403,Digital,OverDrive,AUDIOBOOK,The Power of Habit: Why We Do What We Do in Life and Business (unabridged) (Unabridged),,Charles Duhigg,"Business, Nonfiction, Psychology, Self-Improvement",Books on Tape,2012,balanced_by_year_and_usageclass
+2017,8,388,Digital,OverDrive,AUDIOBOOK,Commonwealth (Unabridged),,Ann Patchett,"Fiction, Literature",HarperCollins Publishers Inc.,2016,balanced_by_year_and_usageclass
+2017,9,320,Digital,OverDrive,AUDIOBOOK,"Night School: Jack Reacher Series, Book 21 (unabridged) (Unabridged)",,Lee Child,"Fiction, Mystery, Suspense, Thriller",Books on Tape,2016,balanced_by_year_and_usageclass
+2017,10,308,Digital,OverDrive,AUDIOBOOK,The Princess Diarist (Unabridged),,Carrie Fisher,"Essays, Humor (Nonfiction), Nonfiction, Self Help",Books on Tape,2016,balanced_by_year_and_usageclass
+2018,1,1157,Digital,OverDrive,AUDIOBOOK,The Red Pencil (Unabridged),,Andrea Davis Pinkney,"Juvenile Fiction, Juvenile Literature",Hachette Audio,2014,balanced_by_year_and_usageclass
+2018,2,759,Digital,OverDrive,EBOOK,Origin: A Novel,,Dan Brown | Diana Abu-Jaber,"Fiction, Literature, Mystery, Thriller | Fiction, Suspense, Thriller","Random House, Inc. | W. W. Norton & Company",2015 | 2017,balanced_by_year_and_usageclass
+2018,3,753,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Rich Series, Book 1",,Kevin Kwan,"Fiction, Humor (Fiction), Literature, Romance","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2018,4,672,Digital,Zinio,MAGAZINE,Cook's Illustrated,,,,,,balanced_by_year_and_usageclass
+2018,5,666,Digital,OverDrive,EBOOK,Commonwealth,,Ann Patchett,"Fiction, Literature",HarperCollins Publishers Inc.,2016,balanced_by_year_and_usageclass
+2018,6,604,Digital,OverDrive,EBOOK,"Outlander: Outlander Series, Book 1",,Diana Gabaldon,"Fantasy, Fiction, Historical Fiction, Romance","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2018,7,588,Digital,Zinio,MAGAZINE,Outside,,,,,,balanced_by_year_and_usageclass
+2018,8,501,Digital,OverDrive,EBOOK,The Power,,Naomi Alderman | Rhonda Byrne,"Fantasy, Fiction, Literature, Science Fiction | New Age, Nonfiction, Self-Improvement","Hachette Digital, Inc. | Simon & Schuster, Inc.",2014 | 2017,balanced_by_year_and_usageclass
+2018,9,496,Digital,Zinio,MAGAZINE,"O, The Oprah Magazine",,,,,,balanced_by_year_and_usageclass
+2018,10,398,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1",,Kevin Kwan,"Fiction, Humor (Fiction), Literature, Romance","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2019,1,4943,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1",,Kevin Kwan,"Fiction, Humor (Fiction), Literature, Romance","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2019,2,2598,Digital,OverDrive,AUDIOBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1 (unabridged) (Unabridged)",,Kevin Kwan,"Fiction, Literature",Books on Tape,2013,balanced_by_year_and_usageclass
+2019,3,1363,Digital,OverDrive,EBOOK,The Reckoning: A Novel,,John Grisham,"Fiction, Suspense, Thriller","Random House, Inc.",2018,balanced_by_year_and_usageclass
+2019,4,1021,Digital,OverDrive,EBOOK,"Outlander: Outlander Series, Book 1",,Diana Gabaldon,"Fantasy, Fiction, Historical Fiction, Romance","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2019,5,845,Digital,OverDrive,EBOOK,Pachinko (National Book Award Finalist),,Min Jin Lee,"Fiction, Literature","Hachette Digital, Inc.",2017,balanced_by_year_and_usageclass
+2019,6,762,Digital,OverDrive,AUDIOBOOK,The Red Pencil (Unabridged),,Andrea Davis Pinkney,"Juvenile Fiction, Juvenile Literature",Hachette Audio,2014,balanced_by_year_and_usageclass
+2019,7,752,Digital,OverDrive,AUDIOBOOK,The Reckoning: A Novel (unabridged) (Unabridged),,John Grisham,"Fiction, Suspense, Thriller",Books on Tape,2018,balanced_by_year_and_usageclass
+2019,8,737,Digital,OverDrive,EBOOK,Pachinko,,Min Jin Lee,"Fiction, Literature","Hachette Digital, Inc.",2017,balanced_by_year_and_usageclass
+2019,9,680,Digital,OverDrive,AUDIOBOOK,Pachinko (Unabridged),,Min Jin Lee,"Fiction, Literature","Blackstone Audio, Inc.",2017,balanced_by_year_and_usageclass
+2019,10,564,Digital,OverDrive,AUDIOBOOK,Outliers: The Story of Success (unabridged) (Unabridged),,Malcolm Gladwell,"Business, Economics, Nonfiction, Sociology | Business, Nonfiction, Psychology, Self Help | Nonfiction, Psychology","Blackstone Audio, Inc. | Hachette Audio",2008 | 2012,balanced_by_year_and_usageclass
+2020,1,2235,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1",,Kevin Kwan,"Fiction, Humor (Fiction), Literature, Romance","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2020,2,1256,Digital,OverDrive,AUDIOBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1 (unabridged) (Unabridged)",,Kevin Kwan,"Fiction, Literature",Books on Tape,2013,balanced_by_year_and_usageclass
+2020,3,946,Digital,OverDrive,EBOOK,The Reckoning: A Novel,,John Grisham,"Fiction, Suspense, Thriller","Random House, Inc.",2018,balanced_by_year_and_usageclass
+2020,4,698,Digital,OverDrive,AUDIOBOOK,"Origin: Robert Langdon Series, Book 5 (unabridged) (Unabridged)",,Dan Brown,"Fiction, Suspense, Thriller",Books on Tape,2017,balanced_by_year_and_usageclass
+2020,5,580,Digital,OverDrive,AUDIOBOOK,The Reckoning: A Novel (unabridged) (Unabridged),,John Grisham,"Fiction, Suspense, Thriller",Books on Tape,2018,balanced_by_year_and_usageclass
+2020,6,487,Digital,OverDrive,EBOOK,"Origin: Robert Langdon Series, Book 5",,Dan Brown,"Fiction, Suspense, Thriller","Random House, Inc.",2017,balanced_by_year_and_usageclass
+2020,7,414,Digital,OverDrive,EBOOK,"Outlander: Outlander Series, Book 1",,Diana Gabaldon,"Fantasy, Fiction, Historical Fiction, Romance","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2020,8,331,Digital,OverDrive,EBOOK,The Raven Tower,,Ann Leckie,"Fantasy, Fiction, Literature","Hachette Digital, Inc.",2019,balanced_by_year_and_usageclass
+2020,9,295,Digital,OverDrive,EBOOK,"Oryx and Crake: MaddAddam Trilogy, Book 1",,Margaret Atwood,"Fantasy, Fiction, Literature, Science Fiction","Random House, Inc.",2009,balanced_by_year_and_usageclass
+2020,10,276,Digital,OverDrive,EBOOK,Pachinko,,Min Jin Lee,"Fiction, Literature","Hachette Digital, Inc.",2017,balanced_by_year_and_usageclass
+2021,1,542,Digital,OverDrive,EBOOK,Pachinko,,Min Jin Lee,"Fiction, Literature","Hachette Digital, Inc.",2017,balanced_by_year_and_usageclass
+2021,2,464,Digital,OverDrive,EBOOK,Outlawed,,Anna North,"Fiction, Historical Fiction, Literature, Western | Fiction, Literature, Western, Historical Fiction",Bloomsbury USA,2021,balanced_by_year_and_usageclass
+2021,3,439,Digital,OverDrive,EBOOK,"Outlander: Outlander Series, Book 1",,Diana Gabaldon,"Fantasy, Fiction, Historical Fiction, Romance | Fantasy, Fiction, Romance, Historical Fiction","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2021,4,417,Digital,OverDrive,AUDIOBOOK,Outliers: The Story of Success (unabridged),,Malcolm Gladwell,"Business, Psychology, Nonfiction, Self Help",Hachette Audio,2008,balanced_by_year_and_usageclass
+2021,5,353,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1",,Kevin Kwan,"Fiction, Humor (Fiction), Literature, Romance | Fiction, Literature, Romance, Humor (Fiction)","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2021,6,331,Digital,OverDrive,AUDIOBOOK,"Outlander: Outlander Series, Book 1 (unabridged)",,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction","Recorded Books, LLC",2020,balanced_by_year_and_usageclass
+2021,7,240,Digital,OverDrive,AUDIOBOOK,Pachinko (unabridged),,Min Jin Lee,"Fiction, Literature","Blackstone Audio, Inc.",2017,balanced_by_year_and_usageclass
+2021,8,224,Digital,OverDrive,AUDIOBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1 (unabridged)",,Kevin Kwan,"Fiction, Literature",Books on Tape,2013,balanced_by_year_and_usageclass
+2021,9,217,Digital,OverDrive,AUDIOBOOK,"Crave: Crave Series, Book 1 (unabridged)",,Tracy Wolff,"Fantasy, Romance, Young Adult Fiction, Young Adult Literature","Tantor Media, Inc",2021,balanced_by_year_and_usageclass
+2021,10,206,Digital,OverDrive,EBOOK,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011,balanced_by_year_and_usageclass
+2022,1,759,Digital,OverDrive,EBOOK,"Outlander: Outlander Series, Book 1",9780440335160,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2022,2,710,Digital,OverDrive,EBOOK,Our Missing Hearts: A Novel,9780593492550,Celeste Ng,"Fantasy, Fiction, Literature","Penguin Group (USA), Inc.",2022,balanced_by_year_and_usageclass
+2022,3,631,Digital,OverDrive,EBOOK,Our Country Friends: A Novel,9781984855138,Gary Shteyngart,"Fiction, Literature","Random House, Inc.",2021,balanced_by_year_and_usageclass
+2022,4,621,Digital,OverDrive,EBOOK,"The Recovery Agent: Gabriela Rose Series, Book 1",9781982154943,Janet Evanovich,"Fiction, Mystery, Thriller, Humor (Fiction)","Simon & Schuster, Inc.",2022,balanced_by_year_and_usageclass
+2022,5,569,Digital,OverDrive,AUDIOBOOK,"Outlander: Outlander Series, Book 1 (unabridged)",9781470360573,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction","Recorded Books, LLC",2020,balanced_by_year_and_usageclass
+2022,6,559,Digital,OverDrive,EBOOK,Counterfeit: A Novel,9780063119574,Kirstin Chen,"Fiction, Literature, Mystery",HarperCollins Publishers Inc.,2022,balanced_by_year_and_usageclass
+2022,7,513,Digital,OverDrive,AUDIOBOOK,"Crave: Crave Series, Book 1 (unabridged)",9781705219614,Tracy Wolff,"Fantasy, Romance, Young Adult Fiction, Young Adult Literature","Tantor Media, Inc",2021,balanced_by_year_and_usageclass
+2022,8,458,Digital,OverDrive,AUDIOBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1 (unabridged)",9780804120791,Kevin Kwan,"Fiction, Literature",Books on Tape,2013,balanced_by_year_and_usageclass
+2022,9,451,Digital,OverDrive,EBOOK,"Crazy Rich Asians: Crazy Rich Asians Series, Book 1",9780385536981,Kevin Kwan,"Fiction, Literature, Romance, Humor (Fiction)","Random House, Inc.",2013,balanced_by_year_and_usageclass
+2022,10,445,Digital,OverDrive,AUDIOBOOK,Our Missing Hearts: A Novel (unabridged),9780593629635,Celeste Ng,"Fantasy, Fiction, Literature",Books on Tape,2022,balanced_by_year_and_usageclass
+2023,1,2040,Digital,OverDrive,EBOOK,Our Missing Hearts: A Novel,9780593492550,Celeste Ng,"Fantasy, Fiction, Literature","Penguin Group (USA), Inc.",2022,balanced_by_year_and_usageclass
+2023,2,1359,Digital,OverDrive,AUDIOBOOK,Our Missing Hearts: A Novel (unabridged),9780593629635,Celeste Ng,"Fantasy, Fiction, Literature",Books on Tape,2022,balanced_by_year_and_usageclass
+2023,3,834,Digital,OverDrive,AUDIOBOOK,Outlive: The Science and Art of Longevity (unabridged),9780593664452,"Peter Attia, MD","Health & Fitness, Science, Self-Improvement, Nonfiction",Books on Tape,2023,balanced_by_year_and_usageclass
+2023,4,595,Digital,OverDrive,EBOOK,Outlive: The Science and Art of Longevity,9780593236604,"Peter Attia, MD","Health & Fitness, Science, Self-Improvement, Nonfiction","Random House, Inc.",2023,balanced_by_year_and_usageclass
+2023,5,559,Digital,OverDrive,AUDIOBOOK,There There: A novel (unabridged),9780525635598,Tommy Orange,"Fiction, Literature",Books on Tape,2018,balanced_by_year_and_usageclass
+2023,6,549,Digital,OverDrive,EBOOK,There There: A novel,9780525520382,Tommy Orange,"Fiction, Literature","Random House, Inc.",2018,balanced_by_year_and_usageclass
+2023,7,539,Digital,OverDrive,EBOOK,Outlander: A Novel,9780440335160,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction","Random House, Inc.",2008,balanced_by_year_and_usageclass
+2023,8,507,Digital,OverDrive,AUDIOBOOK,Counterfeit: A Novel (unabridged),9780063119581,Kirstin Chen,"Fiction, Literature, Mystery",HarperCollins Publishers Inc.,2022,balanced_by_year_and_usageclass
+2023,9,491,Digital,OverDrive,AUDIOBOOK,Our Wives Under the Sea (unabridged),9781666583403,Julia Armfield,"Fiction, Literature, LGBTQIA+ (Fiction)","Dreamscape Media, LLC",2022,balanced_by_year_and_usageclass
+2023,10,467,Digital,OverDrive,AUDIOBOOK,The Return of the King (unabridged),9781461836162 | 9781705047569,J.R.R. Tolkien,"Fantasy, Fiction | Fantasy, Fiction, Mythology","Recorded Books, LLC",2020 | 2021,balanced_by_year_and_usageclass
+2024,1,1008,Digital,OverDrive,AUDIOBOOK | Audiobook,There There: A novel (unabridged),9780525635598,Tommy Orange,"Fiction, Literature",Books on Tape,2018,balanced_by_year_and_usageclass
+2024,2,959,Digital,OverDrive,AUDIOBOOK | Audiobook,Outlive: The Science and Art of Longevity (unabridged),9780593664452,"Peter Attia, MD","Health & Fitness, Science, Self-Improvement, Nonfiction",Books on Tape,2023,balanced_by_year_and_usageclass
+2024,3,849,Digital,OverDrive,AUDIOBOOK,The Return of the King (unabridged),9781461836162 | 9781705047569,J.R.R. Tolkien,"Fantasy, Fiction | Fantasy, Fiction, Mythology","Recorded Books, LLC",2020 | 2021,balanced_by_year_and_usageclass
+2024,4,768,Digital,OverDrive,EBOOK | Ebook,There There: A novel,9780525520382,Tommy Orange,"Fiction, Literature","Knopf Doubleday Publishing Group | Random House, Inc.",2018,balanced_by_year_and_usageclass
+2024,5,644,Digital,OverDrive,EBOOK | Ebook,Outlander,9780440335160,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction","Random House Publishing Group | Random House, Inc.",2004 | 2008,balanced_by_year_and_usageclass
+2024,6,612,Digital,OverDrive,EBOOK | Ebook,Outlive: The Science and Art of Longevity,9780593236604,"Peter Attia, MD","Health & Fitness, Science, Self-Improvement, Nonfiction","Harmony/Rodale/Convergent | Random House, Inc.",2023,balanced_by_year_and_usageclass
+2024,7,376,Digital,OverDrive,AUDIOBOOK | Audiobook,Our Wives Under the Sea (unabridged),9781666583403,Julia Armfield,"Fiction, Literature, LGBTQIA+ (Fiction)","Dreamscape Media | Dreamscape Media, LLC",2022,balanced_by_year_and_usageclass
+2024,8,370,Digital,OverDrive,EBOOK | Ebook,Pachinko,9781455563913,Min Jin Lee,"Fiction, Literature","Grand Central Publishing | Hachette Digital, Inc.",2017,balanced_by_year_and_usageclass
+2024,9,356,Digital,OverDrive,EBOOK,Creation Lake: A Novel,9781982116545,Rachel Kushner,"Fiction, Literature","Simon & Schuster, Inc.",2024,balanced_by_year_and_usageclass
+2024,10,352,Digital,OverDrive,EBOOK | Ebook,Crook Manifesto: A Novel,9780385545167,Colson Whitehead,"Fiction, African American Fiction, Literature, Historical Fiction","Knopf Doubleday Publishing Group | Random House, Inc.",2023,balanced_by_year_and_usageclass
+2025,1,1222,Digital,OverDrive,EBOOK | Ebook,Creation Lake: A Novel,9781982116545,Rachel Kushner,"Fiction, Literature","Scribner | Simon & Schuster, Inc.",2024,balanced_by_year_and_usageclass
+2025,2,692,Digital,OverDrive,EBOOK | Ebook,Outlander,9780440335160,Diana Gabaldon,"Fantasy, Fiction, Romance, Historical Fiction",Random House Publishing Group,2004 | 2008,balanced_by_year_and_usageclass
+2025,3,581,Digital,OverDrive,AUDIOBOOK | Audiobook,Creation Lake: A Novel (unabridged),9781797183473,Rachel Kushner,"Fiction, Literature",Simon & Schuster - Audiobooks | Simon & Schuster Audio,2024,balanced_by_year_and_usageclass
+2025,4,569,Digital,OverDrive,AUDIOBOOK | Audiobook,Outlive: The Science and Art of Longevity (unabridged),9780593664452,"Peter Attia, MD","Health & Fitness, Science, Self-Improvement, Nonfiction",Books on Tape,2023,balanced_by_year_and_usageclass
+2025,5,565,Digital,OverDrive,AUDIOBOOK | Audiobook,Our Wives Under the Sea (unabridged),9781666583403,Julia Armfield,"Fiction, Literature, LGBTQIA+ (Fiction)","Dreamscape Media | Dreamscape Media, LLC",2022,balanced_by_year_and_usageclass
+2025,6,513,Digital,OverDrive,AUDIOBOOK,There There: A novel (unabridged),9780525635598,Tommy Orange,"Fiction, Literature",Books on Tape,2018,balanced_by_year_and_usageclass
+2025,7,478,Digital,OverDrive,EBOOK,There There: A novel,9780525520382,Tommy Orange,"Fiction, Literature","Knopf Doubleday Publishing Group | Random House, Inc.",2018,balanced_by_year_and_usageclass
+2025,8,454,Digital,OverDrive,EBOOK | Ebook,Crime and Punishment,9780679640035 | 9781101142318 | 9781101487556 | 9781620116982,Fyodor Dostoevsky | Fyodor Dostoyevsky,"Classic Literature, Fiction | Classic Literature, Fiction, Literature | Classic Literature, Fiction, Literature, Mystery","Duke Classics | Fictionwise, Inc. | Penguin Group (USA), Inc. | Penguin Group USA, Inc. | Penguin Publishing Group | Random House Publishing Group | Random House, Inc.",1999 | 2004 | 2005 | 2006 | 2010 | 2011 | 2012 | 2013 | 2021,balanced_by_year_and_usageclass
+2025,9,450,Digital,OverDrive,AUDIOBOOK | Audiobook,Out On a Limb:  (unabridged),9798350867053,Hannah Bonam-Young,"Fiction, Romance, Humor (Fiction)","Tantor Media, Inc",2023,balanced_by_year_and_usageclass
+2025,10,414,Digital,OverDrive,AUDIOBOOK | Audiobook,Crime and Punishment:  (unabridged),9781483089478,Fyodor Dostoevsky,"Classic Literature, Fiction, Literature, Historical Fiction",Blackstone Publishing,2007 | 2009,balanced_by_year_and_usageclass
