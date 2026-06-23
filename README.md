@@ -17,6 +17,7 @@ Change to a stacked bar chart in Plotly.js
 - Plotly.js [(link)​](https://plotly.com/javascript/)
 - Apache Echarts [(link)​](https://echarts.apache.org/examples/en/index.html#chart-type-bar)
 - Map: Leaflet [(link)](https://leafletjs.com/examples.html)
+
 Prompt:
 ```
 Change to Apache Echarts
@@ -65,6 +66,8 @@ You should see the following message, with your NetID filled in for NETID:
  
   Welcome to GitLab, @NETID! 
 
+---
+
 ### Set up the repo
 1. Move index.html, index.css, dashboard_data/ into a public/ folder
 ![](./imgs/0-move-into-public.png)
@@ -86,6 +89,8 @@ git push --set-upstream origin2 main
 ![](./imgs/0-3-add-new-origin.png)
 
 5. Refresh the git repo and you'll see your code
+
+---
 
 ### Set up Gitlab
 
