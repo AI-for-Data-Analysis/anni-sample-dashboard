@@ -49,16 +49,53 @@ use $data-viz-accessibility to audit the dashboard
 ```
 
 ## Deploy on Gitlab Pages
+
+### Set up SSH key
+Ensure you have an ssh key added to your Duke OIT GitLab account inside https://gitlab.oit.duke.edu/. If you already have one, great! If not, do the following:
+ 
+1. Generate an ssh public/private key-pair on your laptop as explained here: https://gitlab.oit.duke.edu/help/user/ssh.md#generate-an-ssh-key-pair
+ 
+2. Upload the PUBLIC half of that key-pair to Duke OIT Gitlab as explained here:  https://gitlab.oit.duke.edu/help/user/ssh.md#add-an-ssh-key-to-your-gitlab-account
+ 
+To check if you have set up your ssh key successfully, use the following command in your terminal:
+ 
+   ssh -T git@gitlab.oit.duke.edu
+   
+You should see the following message, with your NetID filled in for NETID:
+ 
+  Welcome to GitLab, @NETID! 
+
+### Set up the repo
 1. Move index.html, index.css, dashboard_data/ into a public/ folder
 ![](./imgs/0-move-into-public.png)
 
-2. Create a new repo, push up your changes, visit Settings -> General -> Visibility
+2. Create a new empty repo
+![](./imgs/0-1-create-repo.png)
+
+3. Fill in the form. Make sure the README.md option is **NOT** selected
+![](./imgs/0-2-fill-in-repo.png)
+
+4. Add a new origin
+```bash
+git init --initial-branch=main
+git remote add origin2 git@gitlab.oit.duke.edu:ay114/mydashboard.git
+git add .
+git commit -m "Initial commit"
+git push --set-upstream origin2 main
+```
+![](./imgs/0-3-add-new-origin.png)
+
+5. Refresh the git repo and you'll see your code
+
+### Set up Gitlab
+
+1. Visit Settings -> General -> Visibility
 ![](./imgs/1-go-to-setting.png)
 
-3. Make sure the Gitlab Pages setting is on
+2. Make sure the Gitlab Pages setting is on
 ![](./imgs/2-enable-pages.png)
 
-4. Go to Deploy -> Pages, create a runner. Copy and paste the following setting
+3. Go to Deploy -> Pages, create a runner. Copy and paste the following setting
 ```
 image: alpine:latest
 
@@ -75,17 +112,17 @@ pages:
 ```
 ![](./imgs/3-edit-yml.png)
 
-5. Press commit. This step will generate a `.gitlab-ci.yml` file.
+4. Press commit. This step will generate a `.gitlab-ci.yml` file.
 ![](./imgs/4-commit-yml.png)
 
-6. Check pipeline
+5. Check pipeline
 ![](./imgs/5-created-pipeline.png)
 
-7. View the pipeline and see it runs
+6. View the pipeline and see it runs
 ![](./imgs/6-see-pipeline.png)
 
-8. When the pipeline succeeds, you'll be able to visit a link
+7. When the pipeline succeeds, you'll be able to visit a link
 ![](./imgs/7-view-pages.png)
 
-9. See the dashboard deployed!
+8. See the dashboard deployed!
 ![](./imgs/8-see-page.png)
