@@ -37,9 +37,23 @@
               <p class="eyebrow">2006-2025</p>
               <h2>Share of sampled digital checkouts</h2>
             </div>
-            <p class="source-note">Hover or tap the chart to inspect each year.</p>
+            <p class="source-note">Hover or tap the chart to inspect each year. <a href="dashboard_data/digital_material_type_shares_by_year.csv">Download CSV</a></p>
           </div>
-          <div id="material-chart" class="chart" role="img" aria-label="Interactive animated bar race chart of digital checkout share by material type over time"></div>
+          <div class="chart-controls">
+            <button id="race-toggle" class="control-button" type="button" aria-pressed="false" aria-controls="material-chart">Pause animation</button>
+            <p id="race-status" class="control-status">Animated view enabled.</p>
+          </div>
+          <div
+            id="material-chart"
+            class="chart"
+            role="group"
+            aria-roledescription="chart"
+            tabindex="0"
+            aria-labelledby="material-chart-title"
+            aria-describedby="material-chart-desc finding-text"
+          ></div>
+          <p id="material-chart-title" class="sr-only">Share of sampled digital checkouts by material type, 2006 through 2025</p>
+          <p id="material-chart-desc" class="sr-only">An animated horizontal bar race. Use the pause button to stop the animation. Full data is available in the linked CSV download.</p>
         </div>
 
         <aside class="finding-panel" aria-labelledby="finding-title">
@@ -66,9 +80,11 @@
             <p class="eyebrow">Top sampled titles</p>
             <h2 id="titles-title">Annual pull of the number-one digital title</h2>
           </div>
-          <p class="source-note">Loaded directly from dashboard_data/digital_top_sampled_titles_by_year.csv.</p>
+          <p class="source-note">Loaded directly from dashboard_data/digital_top_sampled_titles_by_year.csv. <a href="dashboard_data/digital_top_sampled_titles_by_year.csv">Download CSV</a></p>
         </div>
-        <div id="titles-chart" class="chart titles-chart" role="img" aria-label="Interactive chart of the top sampled digital title count by year"></div>
+        <div id="titles-chart" class="chart titles-chart" role="group" aria-roledescription="chart" tabindex="0" aria-labelledby="titles-chart-title" aria-describedby="titles-chart-desc titles-finding"></div>
+        <p id="titles-chart-title" class="sr-only">Top sampled digital title count by year</p>
+        <p id="titles-chart-desc" class="sr-only">A line chart showing the sampled checkout count for the number-one digital title in each year. Full data is available in the linked CSV download.</p>
         <p id="titles-finding" class="secondary-finding">Loading the titles CSV and calculating the finding...</p>
       </section>
 
@@ -78,9 +94,11 @@
             <p class="eyebrow">Physical top sampled titles</p>
             <h2 id="physical-titles-title">Material mix inside each year's physical top 10</h2>
           </div>
-          <p class="source-note">Loaded directly from dashboard_data/physical_top_sampled_titles_by_year.csv.</p>
+          <p class="source-note">Loaded directly from dashboard_data/physical_top_sampled_titles_by_year.csv. <a href="dashboard_data/physical_top_sampled_titles_by_year.csv">Download CSV</a></p>
         </div>
-        <div id="physical-titles-chart" class="chart physical-titles-chart" role="img" aria-label="Interactive stacked bar chart of physical top sampled title checkouts by year and material type"></div>
+        <div id="physical-titles-chart" class="chart physical-titles-chart" role="group" aria-roledescription="chart" tabindex="0" aria-labelledby="physical-titles-chart-title" aria-describedby="physical-titles-chart-desc physical-titles-finding"></div>
+        <p id="physical-titles-chart-title" class="sr-only">Physical top sampled title mix by year</p>
+        <p id="physical-titles-chart-desc" class="sr-only">A stacked bar chart showing the combined sampled checkouts for the physical top ten titles by material type and year. Full data is available in the linked CSV download.</p>
         <p id="physical-titles-finding" class="secondary-finding">Loading the physical titles CSV and calculating the finding...</p>
       </section>
     </main>

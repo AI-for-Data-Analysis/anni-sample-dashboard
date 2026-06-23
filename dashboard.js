@@ -8,7 +8,10 @@ const titlesChartEl = document.getElementById("titles-chart");
 const titlesFindingEl = document.getElementById("titles-finding");
 const physicalTitlesChartEl = document.getElementById("physical-titles-chart");
 const physicalTitlesFindingEl = document.getElementById("physical-titles-finding");
+const raceToggle = document.getElementById("race-toggle");
+const raceStatus = document.getElementById("race-status");
 let raceTimer;
+let racePaused = false;
 
 const palette = {
   EBOOK: "#28666e",
@@ -133,6 +136,7 @@ function buildChart(byYear) {
     }));
 
   const chart = echarts.init(chartEl, null, { renderer: "canvas" });
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const makeYearGraphic = (year) => ({
     type: "text",
     right: 24,
@@ -200,23 +204,57 @@ function buildChart(byYear) {
       },
     ],
     graphic: makeYearGraphic(years[0]),
-    animationDuration: 900,
-    animationDurationUpdate: 900,
+    animationDuration: reducedMotion ? 0 : 900,
+    animationDurationUpdate: reducedMotion ? 0 : 900,
     animationEasing: "cubicOut",
     animationEasingUpdate: "cubicOut",
   });
 
   let yearIndex = 0;
-  clearInterval(raceTimer);
-  raceTimer = setInterval(() => {
-    yearIndex = (yearIndex + 1) % years.length;
-    const year = years[yearIndex];
 
+  function renderYear(year) {
     chart.setOption({
       series: [{ data: dataForYear(year) }],
       graphic: makeYearGraphic(year),
     });
-  }, 1300);
+  }
+
+  function setRacePaused(paused) {
+    racePaused = paused;
+    if (paused) {
+      clearInterval(raceTimer);
+      raceToggle.textContent = "Resume animation";
+      raceToggle.setAttribute("aria-pressed", "true");
+      raceStatus.textContent = "Animation paused.";
+    } else if (!reducedMotion) {
+      clearInterval(raceTimer);
+      raceToggle.textContent = "Pause animation";
+      raceToggle.setAttribute("aria-pressed", "false");
+      raceStatus.textContent = "Animated view enabled.";
+      raceTimer = setInterval(() => {
+        yearIndex = (yearIndex + 1) % years.length;
+        renderYear(years[yearIndex]);
+      }, 1300);
+    }
+  }
+
+  clearInterval(raceTimer);
+  renderYear(years[0]);
+  if (!reducedMotion) {
+    raceTimer = setInterval(() => {
+      yearIndex = (yearIndex + 1) % years.length;
+      renderYear(years[yearIndex]);
+    }, 1300);
+  } else {
+    raceToggle.textContent = "Resume animation";
+    raceToggle.setAttribute("aria-pressed", "true");
+    raceStatus.textContent = "Reduced motion is enabled, so animation is paused.";
+    racePaused = true;
+  }
+
+  raceToggle.addEventListener("click", () => {
+    setRacePaused(!racePaused);
+  });
 
   window.addEventListener("resize", () => chart.resize());
 }
