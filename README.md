@@ -45,3 +45,5 @@ Create a repo-local subagent definition for CSV data visualization work, saved u
 ```
 use $data-viz-accessibility to audit the dashboard
 ```
+
+## Deploy on Gitlab Pages
